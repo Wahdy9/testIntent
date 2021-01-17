@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">testIntent</string>
+
+    <string name="youtubebtn">youtubeBtn</string>
+    <string name="webview_activity">Webview Activity</string>
+    <string name="alert">Alert</string>
+    <string name="text_layout">Text Layout</string>
+    <string name="alert_activity">Alert Activity</string>
+    <string name="badge_option_menu">Badge option menu</string>
+    <string name="Language">lang</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

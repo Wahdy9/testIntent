@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تجربة النية</string>
+    <string name="alert_activity">صفحة تحذير الحوار</string>
+    <string name="alert">تحذير</string>
+    <string name="badge_option_menu">شارة القائمة</string>
+    <string name="Language">اللغة</string>
+    <string name="text_layout">مسطح النص</string>
+    <string name="webview_activity">صفحة الويب</string>
+    <string name="youtubebtn">زر اليوتيوب</string>
+</resources>

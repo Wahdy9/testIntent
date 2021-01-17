@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--merge used if you don't want to implement the layout in this file(like the oriention of Linear)
+ plus if you have more than one view(because you need a root layout, in this case is merge)-->
+<!--tools:parentTag will treat merge like constraint layout, this way we can use constraint-->
+
+<!--placeholder width & height dont matter, because they will be replaced with
+width and height of the view-->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <androidx.constraintlayout.widget.Placeholder
+        android:id="@+id/placeholder_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="16:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:content="@+id/image"/> <!-- id of the view will placed here-->
+
+    <androidx.constraintlayout.widget.Placeholder
+        android:id="@+id/placeholder_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/placeholder_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/placeholder_image"
+        app:content="@+id/btn"/>
+
+</merge>
